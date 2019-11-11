@@ -31,4 +31,11 @@ router.post('/login', (req, res) => {
     });
 });
 
+router.post('/hash', (req, res) => {
+  // read a password from the body
+  // hash the password using bcryptjs
+  // return it to the user in an object that looks like
+  // { password: 'original passsword', hash: 'hashed password' }
+})
+
 module.exports = router;
